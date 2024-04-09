@@ -10,6 +10,10 @@ void btn();
 void setup() {
   // put your setup code here, to run once:
   //int result = myFunction(2, 3);
+  Serial.begin(115200);
+  Serial.printIn("Testing serial...");
+
+
   pinMode(8,INPUT);
   pinMode(9,OUTPUT);
   btn_st=1;
